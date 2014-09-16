@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body{
+  background-image:url(http://bgwallpaper.net/image/alpha-coders-wallpaper-abyss-pattern-wood-420247.jpg);
+  background-size: 1366px 1400px;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+/* START NAVBAR */
+nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav .menu {
+  height: 50px;
+  background: #36363f;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* center the li */
+}
+
+nav .menu li {
+  display: inline-block; 
+}
+
+nav .menu li a {
+  font-family: arial, sans-serif;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 50px;
+  vertical-align: middle;
+  padding: 20px;
+  transition: all 0.5s;
+}
+
+nav .menu li:hover > a {
+  background: #25252B;
+  transition: all 0.5s;
+  color: #ccc;
+}
+
+/* sub-menus */
+
+.menu li > ul {
+  position: absolute;
+  margin-left: -2.21%;
+  display: none;
+  animation: slide 0.1s linear 0s normal;
+}
+
+.menu li > ul > li {
+  display: block;
+  background: #25252b;
+  border-top: 1px solid #25252f;
+}
+
+.menu li > ul > li > a {
+  display: block;
+  padding: 4px 11px;
+}
+
+.menu li:hover > ul {
+  display: block;
+  animation: slide 0.1s linear 0s normal;
+}
+
+.menu li:hover > ul li:hover > a {
+  background: #18181F;
+}
+
+
+
+@keyframes slide {
+  from  { transform: rotateY(35deg) skewX(10deg); }
+  to     { transform: rotateY(0deg) skewX(0deg); }
+}
+header{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 80px;
+  color: #000000;
+  font-family: 'Lobster', cursive;
+
+}
+section{
+  background-color:#363235;
+  height:1060px;
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 5%;
+  font-size: 35px;
+  color: #A9D8E8;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+}
+@media screen and (max-width:959px) {
+ #container{
+    width:100%;
+ }
+
+}
+#container{
+  width:960px;
+  margin:0px auto;
+}
+article{
+    background-color:#000000;
+  height:1060px;
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 5%;
+  font-size: 35px;
+  color: #A9D8E8;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+}
