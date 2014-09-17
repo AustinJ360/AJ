@@ -92,7 +92,7 @@ header{
 section{
   background-color:#363235;
   height:1060px;
-  width:900px;
+  width:960px;
   margin-left: auto;
   margin-right: auto;
   opacity: 5%;
@@ -113,15 +113,15 @@ section{
   margin:0px auto;
 }
 article{
-    background-color:#000000;
-  height:1060px;
-  width:900px;
+    background-color:#FFFFFF;
+  height:950px;
+  width:860px;
   margin-left: auto;
   margin-right: auto;
   opacity: 5%;
   font-size: 35px;
-  color: #A9D8E8;
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 5px;
+  box-shadow:3%;
 }
