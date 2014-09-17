@@ -4,7 +4,7 @@
 }
 
 body{
-  background-image:url(http://bgwallpaper.net/image/alpha-coders-wallpaper-abyss-pattern-wood-420247.jpg);
+  background-image:url(http://www.globaladventure.com/backgrounds/yachtcharter/thailand.jpg);
   background-size: 1366px 1400px;
   background-repeat: no-repeat;
   padding: 0;
@@ -98,9 +98,9 @@ section{
   opacity: 5%;
   font-size: 35px;
   color: #A9D8E8;
-  padding-top: 25px;
-  padding-bottom: 25px;
   border-radius: 5px;
+  padding-top:19px;
+  padding-bottom:20px;
 }
 @media screen and (max-width:959px) {
  #container{
@@ -114,14 +114,13 @@ section{
 }
 article{
     background-color:#FFFFFF;
-  height:950px;
-  width:860px;
+  height:960px;
+  width:865px;
   margin-left: auto;
   margin-right: auto;
+  color:#000000;
   opacity: 5%;
-  font-size: 35px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  font-size: 25px;
   border-radius: 5px;
   box-shadow:3%;
 }
