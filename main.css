@@ -4,8 +4,8 @@
 }
 
 body{
-  background-image:url(http://www.globaladventure.com/backgrounds/yachtcharter/thailand.jpg);
-  background-size: 1366px 1400px;
+  background-image: url(https://lh4.googleusercontent.com/-YUXbAZb7ntg/U4-JKC3AEGI/AAAAAAAAERI/usg5saJdtqU/w1366-h768/blue_polygon_1366x768.jpg);
+  background-size: 1550px 1400px;
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
@@ -123,4 +123,6 @@ article{
   font-size: 25px;
   border-radius: 5px;
   box-shadow:3%;
+
+  text-align:center;
 }
