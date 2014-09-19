@@ -138,10 +138,9 @@ article{
 
 .carousel.carousel-fade .item {
   opacity:0;
-  filter: alpha(opacity=0); /* ie fix */
-}
+   }
 
 .carousel.carousel-fade .active.item {
-    opacity:1;
-    filter: alpha(opacity=100); /* ie fix */
+    opacity:0;
+    
 }
