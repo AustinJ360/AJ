@@ -102,16 +102,6 @@ section{
   padding-top:19px;
   padding-bottom:20px;
 }
-@media screen and (max-width:959px) {
- #container{
-    width:100%;
- }
-
-}
-#container{
-  width:960px;
-  margin:0px auto;
-}
 article{
     background-color:#FFFFFF;
   height:960px;
