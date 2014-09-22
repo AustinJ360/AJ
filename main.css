@@ -10,6 +10,34 @@ body{
   padding: 0;
   margin: 0;
 }
+@media screen and (max-width:959px) {
+  #container{
+    width: 100%;
+  }
+  #left-column{
+  width: 70%;
+  }
+  #right-cloumn{
+    width:70%;
+  }
+  img{
+    width:100px;
+  }
+}
+@media screen and (max-width:640px) {
+  #left-column{
+    width:100%;
+  }
+  #right-column{
+    width: 100%;
+  }
+}
+@media screen and (max-width:320px) {
+  #container{
+    width: 320px;
+  }
+}
+
 /* START NAVBAR */
 nav {
   width: 80%;
@@ -103,7 +131,7 @@ section{
   padding-bottom:20px;
 }
 article{
-    background-color:#FFFFFF;
+  background-color:#FFFFFF;
   height:960px;
   width:865px;
   margin-left: auto;
@@ -113,6 +141,7 @@ article{
   font-size: 25px;
   border-radius: 5px;
   box-shadow:3%;
+  padding-top:25px;
 
   text-align:center;
 }
