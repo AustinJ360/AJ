@@ -4,7 +4,7 @@
 }
 
 body{
-  background-image: url(https://lh4.googleusercontent.com/-YUXbAZb7ntg/U4-JKC3AEGI/AAAAAAAAERI/usg5saJdtqU/w1366-h768/blue_polygon_1366x768.jpg);
+  background-image: url(http://content.wallpapers-room.com/resolutions/1366x768/T/Wallpapers-room_com___The_Wood_Experiment_by_Delta909_1366x768.jpg);
   background-size: 1550px 1400px;
   background-repeat: no-repeat;
   padding: 0;
@@ -126,21 +126,20 @@ section{
   opacity: 5%;
   font-size: 35px;
   color: #A9D8E8;
-  border-radius: 5px;
-  padding-top:19px;
-  padding-bottom:20px;
+  border-radius: 7px;
+  padding-top:25px;
+  padding-bottom:25px;
 }
 article{
   background-color:#FFFFFF;
-  height:960px;
-  width:865px;
+  height:1017px;
+  width:880px;
   margin-left: auto;
   margin-right: auto;
   color:#000000;
   opacity: 5%;
   font-size: 25px;
   border-radius: 5px;
-  box-shadow:3%;
   padding-top:25px;
 
   text-align:center;
