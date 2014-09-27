@@ -3,4 +3,10 @@ div#mydiv{
 	margin:0px auto;
 	height:100px;
 	font-size:27px;
+  margin-left: auto;
+  margin-right: auto;
+  color:#000000;
+  border-radius: 5px;
+
+  text-align:center;
 }
