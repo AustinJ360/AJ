@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -5,7 +6,7 @@
 
 body{
   background-image: url(http://openvce.net/resources/downloads/openvce-signs-template/OpenVCE-Poster-Gold-Background.jpg);
-  background-size: 1550px 1400px;
+  background-size: 1550px 18500px;
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
@@ -131,7 +132,7 @@ header{
 }
 section{
   background-color:#363235;
-  height:1060px;
+  height:1500px;
   width:960px;
   margin-left: auto;
   margin-right: auto;
@@ -144,7 +145,7 @@ section{
 }
 article{
   background-color:#FFFFFF;
-  height:1017px;
+  height:1453px;
   width:880px;
   margin-left: auto;
   margin-right: auto;
@@ -164,6 +165,22 @@ p{
   text-align:center;
   font-family: 'Lobster', cursive;
 }
+p2{
+  margin-left: auto;
+  margin-right: auto;
+  color:#000000;
+  font-size: 20px;
+  text-align:center;
+  font-family: 'Lobster', cursive;
+}
+p3{
+  margin-left: auto;
+  margin-right: auto;
+  color:#000000;
+  font-size: 25px;
+  text-align:center;
+  font-family: 'Lobster', cursive;
+}
 
 .item{
   position:fixed;
@@ -177,12 +194,12 @@ p{
 }
 
 .carousel{
-    margin-top: 70px;
+    margin-top: 60px;
 
 }
 
 .bs-example{
-    margin: 70px;
+    margin: 60px;
 }
 
 .carousel.carousel-fade .item {
@@ -192,4 +209,145 @@ p{
 
 .carousel.carousel-fade .active.item {
     opacity:0;
+}
+
+  facebook: #3b5998;
+  twitter: #4099ff; 
+  google: #d34836; 
+  dribbble: #c73b6f; 
+  pinterest: #c92228;
+.share {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+a[data-group=button] {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  transition: all .6s ease;
+  cursor: pointer;
+  display: inline-block;
+  background: #fff;
+}
+
+.f-book {
+  border: 1px solid #3b5998;
+  color: #3b5998;
+}
+
+.f-book:hover {
+  box-shadow: 0 50px #3b5998 inset;
+  color: #fff;
+}
+
+.twitter {
+  border: 1px solid #4099ff;
+  color: #4099ff;
+}
+
+.twitter:hover {
+  box-shadow: 0 50px #4099ff inset;
+  color: #fff;
+}
+
+.google {
+  border: 1px solid #d34836;
+  color: #d34836;
+}
+
+.google:hover {
+  box-shadow: 0 50px #d34836 inset;
+  color: #fff;
+}
+
+.dribbble {
+  border: 1px solid #c73b6f;
+  color: #c73b6f;
+}
+
+.dribbble:hover {
+  box-shadow: 0 50px #c73b6f inset;
+  color: #fff;
+}
+
+.pinterest {
+  border: 1px solid #c92228;
+  color: #c92228;
+}
+
+.pinterest:hover {
+  box-shadow: 0 50px #c92228 inset;
+  color: #fff;
+}
+
+.f-book2 {
+  border: 1px solid #3b5998;
+  color: #3b5998;
+}
+
+.f-book2:hover {
+  background: #3b5998;
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.twitter2 {
+  border: 1px solid #4099ff;
+  color: #4099ff;
+}
+
+.twitter2:hover {
+  background: #4099ff;
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.google2 {
+  border: 1px solid #d34836;
+  color: #d34836;
+}
+
+.google2:hover {
+  background: #d34836;
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.dribbble2 {
+  border: 1px solid #c73b6f;
+  color: #c73b6f;
+}
+
+.dribbble2:hover {
+  background: #c73b6f;
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.pinterest2 {
+  border: 1px solid #c92228;
+  color: #c92228;
+}
+
+.pinterest2:hover {
+  background: #c92228;
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.persp {
+  perspective: 25em;
+}
+.silver{
+  display:inline-block;
 }
